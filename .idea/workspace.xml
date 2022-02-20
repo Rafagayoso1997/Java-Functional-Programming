@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5988c9ee-3e28-47f6-9692-7f6a87c76453" name="Changes" comment="Function Interface">
+    <list default="true" id="5988c9ee-3e28-47f6-9692-7f6a87c76453" name="Changes" comment="Learning BiFunction">
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalInterface/_Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/functionalInterface/_Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functionalInterface/_Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/functionalInterface/_Function.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/functionalInterface/_Function.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +58,26 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application._Function">
+  <component name="RunManager" selected="Application._Consumer">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="imperative.Main" />
       <module name="Java Functional Programming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="imperative.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functionalInterface._Consumer" />
+      <module name="Java Functional Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functionalInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,8 +98,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaFunctionalProgramming-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/JavaFunctionalProgramming-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._Consumer" />
+        <item itemvalue="JAR Application.JavaFunctionalProgramming-1.0-SNAPSHOT.jar" />
         <item itemvalue="Application._Function" />
         <item itemvalue="Application.Main" />
       </list>
@@ -106,6 +128,8 @@
       <workItem from="1644875324232" duration="1586000" />
       <workItem from="1644918365921" duration="344000" />
       <workItem from="1644948494327" duration="1550000" />
+      <workItem from="1645003946469" duration="102000" />
+      <workItem from="1645364587093" duration="2834000" />
     </task>
     <task id="LOCAL-00001" summary="Function Interface">
       <created>1644877474683</created>
@@ -114,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644877474683</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Learning BiFunction">
+      <created>1645004014014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645004014014</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +164,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Function Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Function Interface" />
+    <MESSAGE value="Learning BiFunction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learning BiFunction" />
   </component>
 </project>
